@@ -491,10 +491,10 @@ namespace WinGrooves
 
         private void jQuery(string query)
         {
-            if (webControl1.IsDomReady)
-            {
+            //if (webControl1.IsDomReady)
+            //{
                 webControl1.ExecuteJavascript(query);
-            }
+            //}
         }
 
         private Awesomium.Core.JSValue jQueryWithResult(string query)
